@@ -12,6 +12,7 @@
 		D081E51F1DCE93920093D421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D081E51D1DCE93920093D421 /* Main.storyboard */; };
 		D081E5211DCE93920093D421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D081E5201DCE93920093D421 /* Assets.xcassets */; };
 		D081E5241DCE93920093D421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D081E5221DCE93920093D421 /* LaunchScreen.storyboard */; };
+		D081E52D1DCE95670093D421 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D081E52C1DCE95670093D421 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D081E5201DCE93920093D421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D081E5231DCE93920093D421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D081E5251DCE93920093D421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D081E52C1DCE95670093D421 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				D081E5181DCE93920093D421 /* hamburguesas */,
+				D081E52B1DCE951F0093D421 /* playgrounds */,
 				D081E5171DCE93920093D421 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +64,15 @@
 				D081E5221DCE93920093D421 /* LaunchScreen.storyboard */,
 				D081E5251DCE93920093D421 /* Info.plist */,
 			);
+			path = hamburguesas;
+			sourceTree = "<group>";
+		};
+		D081E52B1DCE951F0093D421 /* playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				D081E52C1DCE95670093D421 /* Datos.swift */,
+			);
+			name = playgrounds;
 			path = hamburguesas;
 			sourceTree = "<group>";
 		};
@@ -96,7 +108,6 @@
 				TargetAttributes = {
 					D081E5151DCE93920093D421 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 6SSJJ95RYX;
 					};
 				};
 			};
@@ -138,6 +149,7 @@
 			files = (
 				D081E51C1DCE93920093D421 /* ViewController.swift in Sources */,
 				D081E51A1DCE93920093D421 /* AppDelegate.swift in Sources */,
+				D081E52D1DCE95670093D421 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = hamburguesas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.hamburguesas;
@@ -261,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = hamburguesas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.hamburguesas;
